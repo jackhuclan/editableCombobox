@@ -1,0 +1,33 @@
+﻿.editableCombobox {
+    display: inline-block;
+    border: 1px solid #cdcdcd;
+    height: 28px;
+    width: 275px;
+    padding: 0;
+}
+
+.editableCombobox input {
+    border: 0;
+    height: 24px;
+    width: 244px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.editableCombobox button {
+    border: 0;
+    height: 26px;
+    display: inline-block;
+    float: right;
+    width: 29px;
+}
+
+.dropdown-menu ul, .dropdown-menu li {
+    width: 275px;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+
+.dropdown-menu li.active {
+    background-color: #428bca;
+}
